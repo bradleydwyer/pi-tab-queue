@@ -1,0 +1,19 @@
+{
+  "name": "pi-tab-queue",
+  "version": "0.1.0",
+  "description": "Codex-style message queueing for pi — Enter steers the running agent, Tab queues a follow-up",
+  "keywords": ["pi-package", "pi", "pi-extension", "keybindings", "queue", "steering"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleydwyer/pi-tab-queue.git"
+  },
+  "author": "Bradley Dwyer",
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
